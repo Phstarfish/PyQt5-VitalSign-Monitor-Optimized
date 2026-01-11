@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormECG</class>
+ <widget class="QWidget" name="FormECG">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>286</width>
+    <height>252</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>心电参数设置</string>
+  </property>
+  <widget class="QLabel" name="ecg1LeadSetLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG1导联设置</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ecg1GainSetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>80</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>×0.25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×0.5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="ecg2GainSetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>×0.25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×0.5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>×2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="ecg1GainSetLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG1增益设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ecg2GainSetLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG2增益设置</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ecg1LeadSetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="currentText">
+    <string>Ⅰ</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ⅰ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ⅱ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ⅲ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVF</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="ecg2LeadSetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="currentText">
+    <string>Ⅰ</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ⅰ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ⅱ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ⅲ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVF</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="ecg2LeadSetLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG2导联设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ecg1LeadSetLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG1设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ecg1LeadSetLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ECG2设置</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
